@@ -2,6 +2,7 @@
 An image caption service combining a convolutional neural network (image-in) and a recurrent neural network (text out). This service uses Keras as the deep learning framework, based on the [Flickr8K dataset](https://forms.illinois.edu/sec/1713398) and evaluated using the [BLEU score](https://machinelearningmastery.com/calculate-bleu-score-for-text-python/).
 
 Here's a sample caption produced by the neural network after being fed an image:
+
 ![sample output image with caption](https://github.com/jasonsalas/image_captioner/blob/master/output_images/soccer.JPG)
 
 *INSTRUCTIONS*
@@ -12,4 +13,4 @@ Here's a sample caption produced by the neural network after being fed an image:
 
 (Of course, you could run everything in the cloud if you wish.)
 
-This demo is based off the wonderful e-book [Deep Learning for Natural Language Processing](https://machinelearningmastery.com/deep-learning-for-nlp/) by Dr. Jason Brownlee.
+This demo is based off the wonderful e-book [Deep Learning for Natural Language Processing](https://machinelearningmastery.com/deep-learning-for-nlp/) by [Dr. Jason Brownlee](https://twitter.com/TeachTheMachine), and discussed in [a couple](https://medium.com/swlh/image-captioning-in-python-with-keras-870f976e0f18) of [blog posts](https://medium.com/@faizanmustafa75/keras-implementation-of-image-captioning-model-3a7ab68e67d4).
